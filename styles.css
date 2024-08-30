@@ -1,0 +1,104 @@
+/* General Styles */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1e1e1e; /* Dark background */
+    color: #fff; /* White text */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Header Styles */
+header {
+    background: #333; /* Dark grey background */
+    color: #fff; /* White text */
+    padding: 50px 0;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    max-width: 992px;
+    height: auto;
+}
+/* Profile Image */
+form profile_img{
+    width: 100%;
+    max-width: 100px;
+    padding: 30px;
+    height: auto;
+}
+
+/* Section Styles */
+section {
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px 0;
+}
+
+section:nth-of-type(even) {
+    background: #333; /* Dark grey background for alternating sections */
+}
+
+.w3-text-light-grey {
+    color: #d9534f; /* Dark red text */
+}
+
+/* Button Styles */
+.w3-button.w3-light-grey {
+    background-color: #444; /* Dark grey button background */
+    color: #fff; /* White text */
+}
+
+/* Navbar and Sidebar */
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
+
+#main {
+    margin-left: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0;
+    }
+}
+
+/* Footer Styles */
+footer {
+    background: #333; /* Dark grey background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Hover Effects */
+.w3-bar-item.w3-button.w3-hover-black:hover {
+    background-color: #d9534f; /* Dark red on hover */
+}
+
+.w3-hover-opacity:hover {
+    opacity: 0.8; /* Slightly transparent on hover */
+}
+
+/* Form Styles */
+form .w3-input {
+    background: #333;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+form .w3-button {
+    background: #444;
+    color: #fff;
+    padding: 12px;
+    border: none;
+}
